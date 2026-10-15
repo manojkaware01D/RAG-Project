@@ -6,15 +6,18 @@ A small Streamlit banking-support app with local TF-IDF passage retrieval, sourc
 
 Requires Python 3.10 or newer.
 
+From the project root:
+
 ```powershell
-cd python_rag
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app opens at the local URL printed by Streamlit. Uploaded files and imported repository text are stored in `python_rag/.app_data/documents.json` and are excluded from Git.
+The app opens at the local URL printed by Streamlit. Uploaded files and imported repository text are stored in `.app_data/documents.json` and are excluded from Git.
+
+For Streamlit Community Cloud, select `app.py` as the main file.
 
 ## Sources
 
